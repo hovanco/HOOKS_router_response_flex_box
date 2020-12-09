@@ -1,0 +1,322 @@
+.wrapper {
+  display: flex;
+  background-color: #7097a8;
+  box-shadow: inherit;
+  height: 800px;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+}
+
+.show-infor {
+  flex: 1;
+  background-image: url("https://gamek.mediacdn.vn/2018/11/26/john-cena-fashion-15431990207761255377744.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 50%;
+  align-self: center;
+  border-radius: 20px;
+  margin-right: 1rem;
+}
+
+.address-icon h1 {
+  color: white;
+}
+
+.address-icon i {
+  margin-right: 40px;
+}
+
+.email-icon i {
+  margin-right: 40px;
+}
+
+.email-icon h1 {
+  color: white;
+}
+
+.required-infor {
+  height: 50%;
+  background-color: white;
+  align-self: center;
+  border-radius: 20px;
+}
+
+.register-user {
+  flex: 1;
+  justify-content: start;
+  padding: 2rem;
+  height: 100%;
+  input {
+    width: 100%;
+    padding-left: 2rem;
+  }
+  div:first-child label {
+    margin-top: 0;
+  }
+}
+
+input {
+  height: 37px;
+  display: inline-block;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+p {
+  margin-block-start: -1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  color: #bf1650;
+  font-size: 12px;
+  display: block;
+}
+.p-tag-of-textarea {
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  color: #bf1650;
+  font-size: 12px;
+  display: block;
+}
+
+textarea {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 20px;
+  height: 70px;
+
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-top: 2px solid #808080;
+  border-left: 2px solid #808080;
+  outline: none;
+}
+
+label {
+  margin-bottom: 0px;
+  margin-top: 20px;
+
+  line-height: 2;
+  text-align: left;
+  display: block;
+
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.password-icon {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -30px;
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.PhoneInput {
+  display: flex;
+  width: 90%;
+}
+
+.select-in-react {
+  width: 90%;
+  height: 50px;
+}
+
+span {
+  color: #bf1650;
+}
+
+// start class selector
+button + button {
+  margin-left: 1rem;
+}
+
+.btn-style-home {
+  height: 100%;
+  display: flex;
+  button {
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .btn-about-home {
+    color: yellow;
+    background-color: cyan;
+  }
+
+  .btn-dashboard-home {
+    color: deeppink;
+    background-color: black;
+  }
+
+  .btn-reset-home {
+    color: white;
+    background-color: red;
+  }
+
+  .btn-submit-home {
+    color: white;
+    background-color: #4caf50;
+  }
+}
+
+// end class selector
+
+@media only screen and(max-width: 1001px) {
+  .required-infor {
+    height: 50%;
+    background-color: white;
+    align-self: center;
+    border-radius: 20px;
+  }
+  .show-infor {
+    display: none;
+  }
+
+  .register-user {
+    flex: 1 1;
+    justify-content: start;
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and(max-width: 867px) {
+  button + button {
+    margin-left: 0rem;
+  }
+
+  .btn-item {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 62%;
+    justify-content: center;
+  }
+
+  .btn-style-home {
+    height: 100%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    button {
+      width: 130px;
+      height: 35px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      outline: none;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 5px;
+      margin-right: 5px;
+    }
+
+    .btn-about-home {
+      color: yellow;
+      background-color: cyan;
+    }
+
+    .btn-dashboard-home {
+      color: deeppink;
+      background-color: black;
+    }
+
+    .btn-reset-home {
+      color: white;
+      background-color: red;
+    }
+
+    .btn-submit-home {
+      color: white;
+      background-color: #4caf50;
+    }
+  }
+}
+
+@media only screen and(max-width: 736px) {
+  button + button {
+    margin-left: 0rem;
+  }
+  .required-infor {
+    height: 65%;
+    background-color: white;
+    align-self: center;
+    border-radius: 20px;
+  }
+  .btn-item {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .btn-style-home {
+    height: 100%;
+    display: flex;
+    margin-top: 25px;
+    button {
+      width: 100%;
+      height: 35px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      outline: none;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .btn-about-home {
+      color: yellow;
+      background-color: cyan;
+    }
+
+    .btn-dashboard-home {
+      color: deeppink;
+      background-color: black;
+    }
+
+    .btn-reset-home {
+      color: white;
+      background-color: red;
+    }
+
+    .btn-submit-home {
+      color: white;
+      background-color: #4caf50;
+    }
+  }
+}

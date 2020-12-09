@@ -1,0 +1,59 @@
+.wrapper-dashboard {
+  width: 100%;
+  height: 800px;
+
+  display: flex;
+  background: linear-gradient(#667eea, #764ba2);
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-dashboard {
+  width: 40%;
+  height: auto;
+  display: flex;
+  // text-align: center;
+
+  background: linear-gradient(#8a5082, #ff7b89);
+  box-shadow: -4px 10px 12px 7px#6F5F90;
+  border-radius: 5px;
+}
+
+// start class selector
+.btn-style-dashboard {
+  width: 130px;
+  height: 35px;
+  margin-top: 30px;
+  border: none;
+
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 20px;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-home-dashboard {
+  color: deeppink;
+  background-color: black;
+}
+
+.btn-about-dashboard {
+  color: yellow;
+  background-color: blue;
+}
+
+.btn-reset-dashboard {
+  color: white;
+  background-color: red;
+}
+
+.btn-submit-dashboard {
+  color: white;
+  background-color: #4caf50;
+}
+
+// end class selector
